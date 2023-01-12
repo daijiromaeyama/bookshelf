@@ -14,4 +14,5 @@ class Types::AuthorType < Types::BaseObject
   end
 
   field :coordinates, Types::CoordinatesType, null: false
+  field :publication_years, [Int], null: false
 end
